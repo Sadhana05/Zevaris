@@ -1,0 +1,98 @@
+.booking-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2, h3 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .room-list, .payment-options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .room-card, .payment-card {
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    transition: transform 0.3s ease, background 0.3s ease;
+  }
+  
+  .room-card:hover, .payment-card:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .room-card.selected, .payment-card.selected {
+    background-color: #df8033;
+    color: #333;
+    border: 2px solid #df8033;
+  }
+  
+  .booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .booking-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .booking-form button, .confirm-btn {
+    padding: 15px 40px; 
+    font-size: 20px; 
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .confirm-btn {
+    margin-top: 15px
+  }
+  
+  .booking-form button:hover, .confirm-btn:hover {
+    background-color: #218838;
+  }
+  
+  .confirm-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .selected-info {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #df8033;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  

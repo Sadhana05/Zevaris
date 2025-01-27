@@ -1,0 +1,91 @@
+.booking-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .booking-container h2 {
+    color: #3498db;
+    margin-bottom: 20px;
+  }
+  
+  .booking-form, .payment-form, .confirmation {
+    text-align: left;
+  }
+  
+  h3 {
+    color: #2c3e50;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-group input:focus, .form-group select:focus {
+    outline: none;
+    border-color: #3498db;
+  }
+  
+  .btn-next, .btn-back, .btn-confirm {
+    width: 48%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-next {
+    background-color: #3498db;
+  }
+  
+  .btn-next:hover {
+    background-color: #2980b9;
+  }
+  
+  .btn-back {
+    background-color: #e74c3c;
+  }
+  
+  .btn-back:hover {
+    background-color: #c0392b;
+  }
+  
+  .btn-confirm {
+    background-color: #2ecc71;
+  }
+  
+  .btn-confirm:hover {
+    background-color: #27ae60;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #2c3e50;
+    margin: 5px 0;
+  }
+  
