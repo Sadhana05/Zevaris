@@ -78,6 +78,11 @@
 
 .Card_Back .Card_content h3, .Card_Back .Card_content p {
     font-family: 'poppins';
+    color: #000;
+}
+
+.Card_Back p {
+    margin-top: -8px;
 }
 
 .BookNow {

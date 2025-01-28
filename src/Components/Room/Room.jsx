@@ -20,10 +20,10 @@ function Rooms() {
                             </div>
                             <div className={roomsCSS.Card_content}>
                                 <h3>Junior Suite</h3>
-                                <p>- Cozy and spacious ambiance</p>
+                                <p>- Spacious ambiance</p>
                                 <p>- 24/7 room service</p>
                                 <p>- Complimentary breakfast</p>
-                                <p>- High-speed Wi-Fi & secure parking</p>
+                                <p>- Secure parking</p>
                             </div>
                             <div className={roomsCSS.BookNow}>
                                 <Link to ="/juniorsuitebook">
@@ -75,7 +75,7 @@ function Rooms() {
                                 <p>- Perfect for group stays</p>
                                 <p>- Comfortable bedding</p>
                                 <p>- Daily housekeeping</p>
-                                <p>- Free Wi-Fi & valet parking</p>
+                                <p>- Valet parking</p>
                             </div>
                             <div className={roomsCSS.BookNow}>
                                 <Link to= "/Quadroom">
@@ -101,7 +101,7 @@ function Rooms() {
                                 <p>- Luxurious decor</p>
                                 <p>- King-sized bed</p>
                                 <p>- Complimentary minibar</p>
-                                <p>- High-speed Wi-Fi & breakfast</p>
+                                <p>- High speed Wi-Fi</p>
                             </div>
                             <div className={roomsCSS.BookNow}>
                                 <Link to = "/Deluxeroom">
@@ -153,7 +153,7 @@ function Rooms() {
                                 <p>- Perfect for solo travelers</p>
                                 <p>- Cozy interiors</p>
                                 <p>- Smart TV & workspace</p>
-                                <p>- Free Wi-Fi & laundry service</p>
+                                <p>- Laundry service</p>
                             </div>
                             <div className={roomsCSS.BookNow}>
                                 <Link to="/Personalroom">

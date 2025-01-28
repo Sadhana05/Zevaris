@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Swimmingpool.css";
 
-const SwimmingPoolBooking = () => {
+const SwimmingPool = () => {
   const [step, setStep] = useState(1);
   const [formData, setFormData] = useState({
     date: "",
@@ -120,4 +120,4 @@ const SwimmingPoolBooking = () => {
   );
 };
 
-export default SwimmingPoolBooking;
+export default SwimmingPool;
