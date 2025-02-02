@@ -1,6 +1,12 @@
 import React from "react";
 import roomsCSS from "./Room.module.css"
 import { Link } from "react-router-dom";
+import image1 from '../../assets/1.jpg';
+import image2 from '../../assets/2.jpg';
+import image3 from '../../assets/3.jpg';
+import image4 from '../../assets/4.jpg';
+import image5 from '../../assets/5.jpg';
+import image6 from '../../assets/6.jpg';
 
 function Rooms() {
     return(
@@ -11,10 +17,10 @@ function Rooms() {
             <div className={roomsCSS.cards}>
                 <div className={roomsCSS.card_Container}>
                     <div className={roomsCSS.card}>
-                        <div className={`${roomsCSS.Card_front} ${roomsCSS.Card_front1}`}>
+                        <div className={`${roomsCSS.Card_front} ${roomsCSS.Card_front1}`} style={{ backgroundImage: `url(${image1})` }}>
                             <button>Junior Suite</button>
                         </div>
-                        <div className={roomsCSS.Card_Back}>
+                        <div className={roomsCSS.Card_Back} style={{ backgroundImage: `url(${image1})` }}>
                             <div className={roomsCSS.price}>
                                 <p>$120/N</p>
                             </div>
@@ -37,10 +43,10 @@ function Rooms() {
 
                 <div className={roomsCSS.card_Container}>
                     <div className={roomsCSS.card}>
-                        <div className={`${roomsCSS.Card_front} ${roomsCSS.Card_front2}`}>
+                        <div className={`${roomsCSS.Card_front} ${roomsCSS.Card_front2}`} style={{ backgroundImage: `url(${image2})` }}>
                             <button>Twin Room</button>
                         </div>
-                        <div className={`${roomsCSS.Card_Back} ${roomsCSS.Card_Back2}`}>
+                        <div className={`${roomsCSS.Card_Back} ${roomsCSS.Card_Back2}`} style={{ backgroundImage: `url(${image2})` }}>
                             <div className={roomsCSS.price}>
                                 <p>$190/N</p>
                             </div>
@@ -63,10 +69,10 @@ function Rooms() {
 
                 <div className={roomsCSS.card_Container}>
                     <div className={roomsCSS.card}>
-                        <div className={`${roomsCSS.Card_front} ${roomsCSS.Card_front3}`}>
+                        <div className={`${roomsCSS.Card_front} ${roomsCSS.Card_front3}`} style={{ backgroundImage: `url(${image3})` }}>
                             <button>Quad Room</button>
                         </div>
-                        <div className={`${roomsCSS.Card_Back} ${roomsCSS.Card_Back3}`}>
+                        <div className={`${roomsCSS.Card_Back} ${roomsCSS.Card_Back3}`} style={{ backgroundImage: `url(${image3})` }}>
                             <div className={roomsCSS.price}>
                                 <p>$150/N</p>
                             </div>
@@ -89,10 +95,10 @@ function Rooms() {
 
                 <div className={roomsCSS.card_Container}>
                     <div className={roomsCSS.card}>
-                        <div className={`${roomsCSS.Card_front} ${roomsCSS.Card_front4}`}>
+                        <div className={`${roomsCSS.Card_front} ${roomsCSS.Card_front4}`} style={{ backgroundImage: `url(${image4})` }}>
                             <button>Deluxe Room</button>
                         </div>
-                        <div className={`${roomsCSS.Card_Back} ${roomsCSS.Card_Back4}`}>
+                        <div className={`${roomsCSS.Card_Back} ${roomsCSS.Card_Back4}`} style={{ backgroundImage: `url(${image4})` }}>
                             <div className={roomsCSS.price}>
                                 <p>$180/N</p>
                             </div>
@@ -115,10 +121,10 @@ function Rooms() {
 
                 <div className={roomsCSS.card_Container}>
                     <div className={roomsCSS.card}>
-                        <div className={`${roomsCSS.Card_front} ${roomsCSS.Card_front5}`}>
+                        <div className={`${roomsCSS.Card_front} ${roomsCSS.Card_front5}`} style={{ backgroundImage: `url(${image5})` }}>
                             <button>Exclusive Room</button>
                         </div>
-                        <div className={`${roomsCSS.Card_Back} ${roomsCSS.Card_Back5}`}>
+                        <div className={`${roomsCSS.Card_Back} ${roomsCSS.Card_Back5}`} style={{ backgroundImage: `url(${image5})` }}>
                             <div className={roomsCSS.price}>
                                 <p>$220/N</p>
                             </div>
@@ -141,10 +147,10 @@ function Rooms() {
 
                 <div className={roomsCSS.card_Container}>
                     <div className={roomsCSS.card}>
-                        <div className={`${roomsCSS.Card_front} ${roomsCSS.Card_front6}`}>
+                        <div className={`${roomsCSS.Card_front} ${roomsCSS.Card_front6}`} style={{ backgroundImage: `url(${image6})` }}>
                             <button>Personal Room</button>
                         </div>
-                        <div className={`${roomsCSS.Card_Back} ${roomsCSS.Card_Back6}`}>
+                        <div className={`${roomsCSS.Card_Back} ${roomsCSS.Card_Back6}`} style={{ backgroundImage: `url(${image6})` }}>
                             <div className={roomsCSS.price}>
                                 <p>$200/N</p>
                             </div>

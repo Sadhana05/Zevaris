@@ -34,7 +34,7 @@
 }
 
 .Card_front {
-    background: url(src/assets/1.jpg);
+    background: url(/assets/1.jpg);
     justify-content: end;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .Card_Back {
-    background: url(src/assets/1.jpg);
+    background: url(/assets/1.jpg);
     transform: rotateY(180deg);
     z-index: 1;
 }
@@ -103,11 +103,11 @@
 }
 
 .Card_front2 {
-    background: url(src/assets/2.jpg);
+    background: url(/assets/2.jpg);
 }
 
 .Card_Back2 {
-    background: url(src/assets/2.jpg);
+    background: url(/assets/2.jpg);
 }
 
 .Card_front3 {
